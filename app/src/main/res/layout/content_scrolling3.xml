@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".ScrollingActivity3"
+    tools:showIn="@layout/activity_scrolling3">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView11"
+            android:layout_width="match_parent"
+            android:layout_height="207dp"
+            android:src="@drawable/delhi" />
+
+        <ImageView
+            android:id="@+id/imageView12"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:src="@drawable/tourist" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1.Red Fort"
+            android:textColor="@android:color/background_dark"
+            android:textSize="30sp" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:onClick="map"
+            app:srcCompat="@drawable/redfort" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+android:text="Delhi's most famous monument, the Red Fort, stands as a powerful reminder of the Mughal emperors who ruled India. Its walls, which stretch for over two kilometers (1.2 miles), were built in 1638 to keep out invaders. However, they failed to stop the fort being captured by the Sikhs and the British. To take your imagination back to the ancient era, a one hour sound and light show of the fort's history is held each evening.
+
+    Location: Opposite Chandni Chowk, Old Delhi.
+    Entry Cost: Foreigners, 500 rupees. Indians, 30 rupees. Free for children under 15 years.
+    Opening Hours: Sunrise until sunset. Closed Mondays."            android:textColor="@color/colorAccent" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="map"
+            android:text="Click here to get location" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2.Jama Masjid"
+            android:textColor="@android:color/background_dark"
+            android:textSize="30sp" />
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            app:srcCompat="@drawable/jamamasjid" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+android:text="Jama Masjid is another marvelous treasure of the Old City, and it's one of the largest mosque in India. Its courtyard can hold an incredible 25,000 devotees. The mosque took six years to build, and was completed in 1656. A strenuous climb to the top of its southern tower will reward you with a stunning view (albeit obscured by metal security grills) across the rooftops of Delhi. Be sure to dress appropriately when visiting the mosque or you won't be allowed in. This means covering your head, legs and shoulders. Attire is available there.
+
+    Location: Opposite Chandni Chowk, Old Delhi. Near the Red Fort.
+    Entry Cost: Free, but a camera fee of 300 rupees applies. You'll also need to pay to climb the minaret tower.
+    Opening Hours: Daily, except when prayers are being held from noon to 1.30 p.m. It closes just before sunset."            android:textColor="@color/colorAccent" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="map"
+            android:text="Click here to get location" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3.Humayun's Tomb"
+            android:textColor="@android:color/background_dark"
+            android:textSize="30sp" />
+
+        <ImageView
+            android:id="@+id/imageView9"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            app:srcCompat="@drawable/humayunstomb" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+android:text="If you think Humayun's Tomb looks a bit like the Taj Mahal in Agra, that's because it was the inspiration for the Taj Mahal's creation. The tomb was built in 1570, and houses the body of the second Mughal emperor, Humayun. It was the first of this type of Mughal architecture to be built in India, and the Mughal rulers followed it up with an extensive period of construction all over the country. The tomb is part of a greater complex that's set among beautiful gardens.
+
+    Location: Nizamuddin East, New Delhi. Near the Nizamuddin train station, off Mathura Road.
+    Entry Cost: Foreigners, 500 rupees. Indians, 30 rupees. Free for children under 15 years.
+    Opening Hours: Sunrise until sunset, daily. It's best viewed in the golden light of the late afternoon."  android:textColor="@color/colorAccent" />
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="map"
+            android:text="Click here to get location" />
+
+    </LinearLayout>
+
+
+</android.support.v4.widget.NestedScrollView>

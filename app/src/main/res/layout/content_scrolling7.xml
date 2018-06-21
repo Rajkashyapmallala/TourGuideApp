@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".ScrollingActivity7"
+    tools:showIn="@layout/activity_scrolling7">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView11"
+            android:layout_width="match_parent"
+            android:layout_height="207dp"
+            android:src="@drawable/chennai" />
+
+        <ImageView
+            android:id="@+id/imageView12"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:src="@drawable/tourist" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1.Marina Beach"
+            android:textColor="@android:color/background_dark"
+            android:textSize="30sp" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:onClick="map"
+            app:srcCompat="@drawable/marina" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="At a distance of 4 Kms from Chennai Central Railway Station (located at Kamarajar Road, near local Chepauk Railway Station), the famous Marina beach is the second longest beach in the World and runs to a length of 13 Km. This is one of the top tourist places to visit in Chennai city.
+
+Situated on the beach, the Anna Park, named after the founder of D.M.K Anna durai and the tomb of M.G. Ramachandran who was a film star (both were former Chief Ministers of Tamil Nadu) and the Statue of Labour is a splendid sculpture depicting the efforts of a team of labourers who are at hard manual labour.
+
+The beach can be ideally visited in the early mornings or in the late evenings when the area becomes a virtual ground with food stalls and other entertainments."
+                        android:textColor="@color/colorAccent" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="map"
+            android:text="Click here to get location" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2.The Government Museum"
+            android:textColor="@android:color/background_dark"
+            android:textSize="30sp" />
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            app:srcCompat="@drawable/museum" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+android:text="The Government Museum was established in 1857 and has the country's best collection of South Indian bronzes, both ancient and modern. Among which beautiful bronze icons of Nataraja, Rama, Sita, Lakshmana and Hanuman. The Amaravathi Gallery contains the rare second century marble sculptures, depicting important events in the life of Gautama Buddha. The bronzes from the 10th and 13th centuries and handicrafts from the 11th and 12th centuries also are seen here.
+
+The National Art Gallery exhibits several beautiful paintings of 16th and 18th century from Rajasthan, Mughal period and 17th century Deccani art."            android:textColor="@color/colorAccent" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="map"
+            android:text="Click here to get location" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3.Rippon Building"
+            android:textColor="@android:color/background_dark"
+            android:textSize="30sp" />
+
+        <ImageView
+            android:id="@+id/imageView9"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            app:srcCompat="@drawable/rippon" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+android:text="At a distance of 0.5 Kms from Chennai Central Railway Station (located on the West of the Central Railway Station), the Rippon Building is one of the most elegant buildings in Chennai.
+
+Built in 1913, it is being used as Municipal Corporation office since then. It is a part of a large municipal complex, which includes parks and gardens, the Nehru Stadium, Victoria Public Hall and Moore Market.
+
+Named after the Governor General of India, Lord Rippon, this building is one of the best examples of British architecture in India and has still preserved its vintage look. The building also has been a witness to a number of historical events.
+"            android:textColor="@color/colorAccent" />
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="map"
+            android:text="Click here to get location" />
+
+    </LinearLayout>
+
+
+</android.support.v4.widget.NestedScrollView>

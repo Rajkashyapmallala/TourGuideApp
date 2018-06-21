@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".ScrollingActivity4"
+    tools:showIn="@layout/activity_scrolling4">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView11"
+            android:layout_width="match_parent"
+            android:layout_height="207dp"
+            android:src="@drawable/hyd" />
+
+        <ImageView
+            android:id="@+id/imageView12"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:src="@drawable/tourist" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1.Ramoji Film City"
+            android:textColor="@android:color/background_dark"
+            android:textSize="30sp" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:onClick="map"
+            app:srcCompat="@drawable/ramoji" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ramoji Film City is known among the largest and glamorous film studios in the world. It has found its way in to the Guinness Book of World Records as well.
+
+Ramoji Film Studio, which spreads over a vast area of about 2500 acres, is a major film-making facility in India. The architecture and engineering of Ramoji Film Studio makes it the first choice of many filmmakers of India.
+
+Ramoji Film City of Hyderabad is famous for its lush green landscape and scenery that consists of hills, gardens and lakes.  There are many modern buildings and high-tech laboratories at Ramoji Film City that serve well to the purpose of film-making.
+
+Ramoji Film City can accommodate about 50 film units at the same time.  The outdoor locations and lush greenery of Ramoji Film City attract tourists as well.
+"            android:textColor="@color/colorAccent" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="map"
+            android:text="Click here to get location" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2.Golconda"
+            android:textColor="@android:color/background_dark"
+            android:textSize="30sp" />
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            app:srcCompat="@drawable/golconda" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+android:text="Golconda Fort, a chief attraction of Hyderabad city, is situated towards the western outskirts of Hyderabad at a distance of about 11 km from the city centre.
+
+The word ‘Golconda’ originated from ‘Golla Konda’ which stands for ‘Shepherd’s Hill’ in Telugu. Golconda Fort came under the control of many dynasties like Yadava Dynasty, Kakatiya Dynasty, Bahmani Dynasty, Qutb Shahis and Mughal Dynasty.
+
+Golconda Fort was first constructed of mud by the rulers of Kakatiya Dynasty in the 13th century. It was later re-built in granite by the first three Qutb Shahis, which took about 62 years to complete. Golconda Fort was under the control of Qutb Shahis from 1518 AD to 1687 AD. Later, the Mughals invaded Golconda Fort and the fort was brought to ruins.
+
+The boundary wall of Golconda Fort that towers to a height of about 120 meters covers about 10 km. There are four small forts inside Golconda Fort which comprise of armoury, temples, mosques, stables, etc.
+
+The fort has 8 gates (Darwazas) of which the most important is 'Fateh Darwaza’. Fateh Darwaza or the Victory Gate is also the entry point to the fort. It is famous for its acoustic effects, which was an effective security measure in those days.  It is said that the sound of clapping of hands at Fateh Darwaza can be heard clearly at ‘Bala Hissar’, the highest point situated about 1 km away in Golconda Fort. "
+            android:textColor="@color/colorAccent" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="map"
+            android:text="Click here to get location" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3.Charminar"
+            android:textColor="@android:color/background_dark"
+            android:textSize="30sp" />
+
+        <ImageView
+            android:id="@+id/imageView9"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            app:srcCompat="@drawable/charminar" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Charminar is a famous landmark of Hyderabad. It is considered as a fine example of Cazia style of architecture and is made of granite and lime-mortar. Located towards the heart of the city, Charminar was built in 1591 by Mohammed Quli Qutub Shah.
+
+Charminar has four arches, which in earlier days faced the royal streets. The minarets, which stand on the corners, are about 56 meters high. These minarets have double balcony. There is also a mosque towards the western side of the fort, on the roof.
+
+There are about 149 steps that lead to the top of Charminar Fort.  Tourists can have a bird's eye view of the bustling city of Hyderabad from here.
+"    android:textColor="@color/colorAccent" />
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="map"
+            android:text="Click here to get location" />
+
+    </LinearLayout>
+
+</android.support.v4.widget.NestedScrollView>

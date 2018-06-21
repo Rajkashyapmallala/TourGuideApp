@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".ScrollingActivity8"
+    tools:showIn="@layout/activity_scrolling8">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView11"
+            android:layout_width="match_parent"
+            android:layout_height="207dp"
+            android:src="@drawable/chennai" />
+
+        <ImageView
+            android:id="@+id/imageView12"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:src="@drawable/temples" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1.Parthasarathy Temple"
+            android:textColor="@android:color/background_dark"
+            android:textSize="30sp" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:onClick="map"
+            app:srcCompat="@drawable/parthasarathy" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+android:text="At a distance of 4.5 Kms from Chennai Central Railway Station (located in Peter's Road, Triplicane, near local Triplicane Railway Station), Sri Parthasarathy Temple dedicated to Lord Krishna is one of the oldest temples in Chennai. This temple is built by Pallavas in the 8th century. This is one of the top tourist places to visit in Chennai city.
+
+The present structure of the temple is largely based on the renovations and additions carried out in the 16th century by the Vijayanagar Kings. A number of fine carvings adorn the temple. It is one of the 108 sacred centers of Sri Vaishnavites.
+"            android:textColor="@color/colorAccent" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="map"
+            android:text="Click here to get location" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2.Kapileshwarar Temple"
+            android:textColor="@android:color/background_dark"
+            android:textSize="30sp" />
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            app:srcCompat="@drawable/kapileshwaram" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+android:text="t a distance of 6.5 Kms from Chennai Central Railway Station (located in Mylapore), the Kapaleeswarar Temple dedicated to Shiva is built in 8th Century by Pallavas. But the current structure is rebuilt by the Vijayanagara rulers in 16th century. The 37 meters tall and grand gopuram is made in the characteristic Dravidian style of architecture. This is one of the top tourist places to visit in Chennai city.
+
+This temple has some beautiful sculptures, among which the bronze idols of 63 Saivaite Saints or the Nayanmars. The Arubathumoovar festival dedicated to the 63 Nayanmars held in March-April every year is a special attraction.
+"            android:textColor="@color/colorAccent" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="map"
+            android:text="Click here to get location" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3.Mahabalipuram"
+            android:textColor="@android:color/background_dark"
+            android:textSize="30sp" />
+
+        <ImageView
+            android:id="@+id/imageView9"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            app:srcCompat="@drawable/mahabalipuram" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+android:text="At a distance of 57 km from Chennai, 65 km from Kanchipuram, 96 km from Pondicherry, 420 km from Madurai and 290 km from Trichy, Mahabalipuram (also called Mamallapuram) is situated in Kanchipuram district in the state of Tamil Nadu. It is famous for its shore temples built in 7th century. Mahabalipuram is one of the must visit weekend getaways from Chennai for one day trip. This also a major historical / heritage site in Tamil Nadu and one of the best places to experience Tamilnadu Tourism.
+
+This UNESCO World Heritage Site was the second capital of the Pallava kings of Kanchipuram. It is an ancient historic town and was a bustling seaport during Pallava kings in 7th Century AD. According to the legend, it has been named after the demon king Mahabali who was renowned for his generosity. "            android:textColor="@color/colorAccent" />
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="map"
+            android:text="Click here to get location" />
+
+    </LinearLayout>
+
+
+</android.support.v4.widget.NestedScrollView>

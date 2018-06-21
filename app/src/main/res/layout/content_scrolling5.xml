@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".ScrollingActivity5"
+    tools:showIn="@layout/activity_scrolling5">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView11"
+            android:layout_width="match_parent"
+            android:layout_height="207dp"
+            android:src="@drawable/hyd" />
+
+        <ImageView
+            android:id="@+id/imageView12"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:src="@drawable/temples" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1.Birla Temple"
+            android:textColor="@android:color/background_dark"
+            android:textSize="30sp" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:onClick="map"
+            app:srcCompat="@drawable/birla" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+android:text="Birla Mandir is one of the popular landmarks of Hyderabad. Birla Mandir, built by Birla, is located on a hillock called Kala Pahad, which is at a distance of about 2 km from Hyderabad city.
+
+Birla Mandir, dedicated to Lord Venkateshwara of Tirumala Tirupati Temple, is made of white marble brought from Rajasthan. The architectural style of the temple is a blend of North Indian and South Indian styles of temple architecture.
+
+The temple tower or the ‘Gopuram’ exhibits the salient features of South Indian temples. The Jagadananda vimanam built atop the sanctum sanctorum resembles the Oriya style of temple architecture.
+
+The flagstaff of the temple which has a height of 42 feet is made of brass. Scenes from the epics of Ramayana and Mahabharata are intricately carved on the walls and ceilings of the temple. The statues of deities belonging to Hindu mythology can be found from the entrance up to the sanctum sanctorum of the temple.
+
+The idol of the main deity, Lord Venkateshwara, is a replica of Balaji of Tirupati. The idol of the principal deity carved out of granite stone is about 11 feet tall. There is a lotus-shaped canopy built in marble at the top of this idol."            android:textColor="@color/colorAccent" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="map"
+            android:text="Click here to get location" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2.Jagannath Temple"
+            android:textColor="@android:color/background_dark"
+            android:textSize="30sp" />
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            app:srcCompat="@drawable/jagannath" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+android:text="The Jagannath Temple, situated near Banjaara Hills Road, in Hyderabad is dedicated to Lord Krishna, an incarnation of Lord Vishnu. The sanctum sanctorum of the temple, which was constructed in 2009, houses the idols of Lord Jagannath along with his siblings, Balabhadra and Subhadra. There are also shrines dedicated of Lakshmi, Shiva, Ganesh, Hanuman and Navagrahas. Idols were carved out of neem wood.
+It is a replica of the original Jagannath (Lord of Universe) Temple of Puri in Orissa except in size. Shikhara (top), measuring around 70 ft in height, is the most attractive portion of the temple.
+The temple is famous for the annual Rathyatra festival. The temple is open in the morning and evening.
+Although the Jagannath Temple is a religious site, there are many other tourist attractions located nearby like the Charminar, Hussain Sagar Lake, Ramoji Film City, Nehru Zoological Park, Snow World and Golkonda. As such, not only the devotees, but also the tourists and wanderlust will find something of interest in Hyderabad."            android:textColor="@color/colorAccent" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="map"
+            android:text="Click here to get location" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3.Chilkur Balaji Temple"
+            android:textColor="@android:color/background_dark"
+            android:textSize="30sp" />
+
+        <ImageView
+            android:id="@+id/imageView9"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            app:srcCompat="@drawable/balaji" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+android:text="Chilkur Balaji Temple, popularly known asVisa Balaji Temple, is an ancient Hindu temple of Lord Balaji on the banks of Osman Sagar in Hyderabad. It is one of the oldest temples in Hyderabad built during the time of Madanna and Akkanna, the uncles of Bhakta Ramadas.
+
+        This temple has no hundi and neither accepts any money from devotees. VAK Books also known as the Voice of Temples with religious news is available here. This is one of the special Temples in India with no green channel or privileges for VIP's. The only other such temple is the Jalabram temple in Virpur (Rajkot), Gujarat. This temple fought and won the right to stay out of government control. The only another such temple isRamanuj Kota, a temple in Jodhpur, Rajasthan."    android:textColor="@color/colorAccent" />
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="map"
+            android:text="Click here to get location" />
+
+    </LinearLayout>
+
+</android.support.v4.widget.NestedScrollView>
